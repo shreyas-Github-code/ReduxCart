@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillDelete } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
+import toast from "react-hot-toast";
 
 const Cart = () => {
   const { cartItems, subTotal, tax, shipping, total } = useSelector(
@@ -29,6 +30,7 @@ const Cart = () => {
       payload: id,
     });
     dispatch({ type: "calculatePrice" });
+    toast.success("Deleted From Cart");
   };
 
   return (
