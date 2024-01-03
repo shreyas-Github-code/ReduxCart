@@ -45,7 +45,7 @@ const Home = () => {
       id: "sdjfdlaajsdbhjabhsjdfdfiwatchSE",
     },
     {
-      name: "GoPro HERO11",
+      name: "GoPro-HERO11",
       price: 750,
       imgSrc: img5,
       id: "sdjfdlaajsdbhjabhsjdfdfgoPro",
