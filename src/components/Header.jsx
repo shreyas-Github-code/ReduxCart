@@ -10,7 +10,7 @@ const Header = () => {
       <h2>Ecom</h2>
 
       <div>
-        <Link to={"/"}>Home</Link>
+        <Link to={"/"}>HOME</Link>
         <Link to={"/cart"}>
           <FiShoppingBag />
           <p>{cartItems.length}</p>
